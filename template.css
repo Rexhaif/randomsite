@@ -1,0 +1,56 @@
+div {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.topnav {
+
+    background: aqua;
+
+}
+
+div.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+
+}
+
+div.topnav li {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+div.topnav li:hover {
+    cursor: default;
+}
+
+div.topnav li a {
+    color: #000000;
+    text-decoration: none;
+    font: status-bar;
+
+}
+
+div.topnav li a:hover {
+    text-shadow: 0 0 4px #4444ff;
+
+}
+
+div.head {
+    background: red;
+    height: 1000px;
+}
+
+div.body {
+
+}
+
+div.foot {
+
+}
