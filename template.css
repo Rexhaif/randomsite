@@ -1,29 +1,27 @@
-div {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
+body {margin: 0;}
 
 div.topnav {
-
-    background: aqua;
-
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid black;
 }
 
 div.topnav ul {
+    position: fixed;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: #FFFFFF;
-
+    margin: 0;
+    padding: 0 20%;
+    top: 0;
+    width: 60%;
+    background: #ffffff;
 }
 
 div.topnav li {
     float: right;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 12px;
 }
 
 div.topnav li:hover {
@@ -39,18 +37,28 @@ div.topnav li a {
 
 div.topnav li a:hover {
     text-shadow: 0 0 4px #4444ff;
+}
 
+div.topnav #active {
+    text-shadow: 0 0 4px #4444ff;
 }
 
 div.head {
+    border-bottom: 2px solid black;
+    margin-top: 48px;
     background: red;
-    height: 1000px;
+    height: 500px;
 }
 
 div.body {
-
+    border-bottom: 2px solid black;
+    margin: 0 20% 0;
+    background: blue;
+    height: 1000px;
 }
 
 div.foot {
-
+    margin: 0 20% 0;
+    background: green;
+    height: 200px;
 }
